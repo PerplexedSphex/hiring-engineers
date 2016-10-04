@@ -1,7 +1,10 @@
 Your answers to the questions go here.
 
-Hello, world!
+# Level 0
+
+Before starting this exercise, it is necessary to download VirtualBox and Vagrant. These will allow us to create a fresh ubuntu virtual machine using the following commands:
 
 ```
-$ echo 'This is a shell command'
+$ vagrant init hasicorp/precise64
+$ vagrant up 
 ```
